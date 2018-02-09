@@ -15,8 +15,7 @@
 <body>
     <div class="wrapper">
         <header>
-            <header role="banner">
-                <div class="wrapper-inner">
+            <div class="wrapper-inner">
                     <nav>
                         <a href="#about">О компании</a>
                         <a href="#service">Услуги</a>
@@ -24,115 +23,130 @@
                         <a href="#">Контакты</a>
                         <a href="#">Банковские реквизиты</a>
                     </nav>
-                    <div class="custom-select">
-                        <div class="current-value">Нажми меня</div>
-                        <ul>
-                            <li>Какое-то значение 1</li>
-                            <li>Какое-то значение 2</li>
-                            <li>Какое-то значение 3</li>
-                            <li>Какое-то значение 4</li>
-                        </ul>
-                        <input type="text" name="name" value="default">
+                    <i class="fa fa-bars burger"></i>
+                    <div class="right-bar">
+                        <div class="custom-select">
+                            <div class="current-value">Нажми меня</div>
+                            <ul>
+                                <li>Какое-то значение 1</li>
+                                <li>Какое-то значение 2</li>
+                                <li>Какое-то значение 3</li>
+                                <li>Какое-то значение 4</li>
+                            </ul>
+                            <input type="text" name="name" value="default">
+                        </div>
+                        <div class="language-version">
+                            <div class="english"></div>
+                            <a href="#">English version</a>
+                        </div>
                     </div>
-                    <a class="english" href="#"><img src="images/union-jack.jpg" alt="some text">English version</a>
                 </div>
-            </header>
         </header>
         <div class="slider">
             <div class="slide">
-                <img src="slides/slide-1.jpg" alt="product">
+                <div class="slide-1 image"></div>
                 <div class="ad-upper">Доставка грузов от двери до двери
                     <a href="#">Подробнее</a>
                 </div>
             </div>
             <div class="slide">
-                <img src="slides/slide-2.jpg" alt="product">
+                <div class="slide-2 image"></div>
                 <div class="ad-upper">Доставка грузов от двери до двери
                     <a href="#">Подробнее</a>
                 </div>
             </div>
             <div class="slide">
-                <img src="slides/slide-3.jpg" alt="product">
+                <div class="slide-3 image"></div>
                 <div class="ad-upper">Доставка грузов от<br>двери до двери
                     <a href="#">Подробнее</a>
                 </div>
             </div>
         </div>
-        <main>
+
             <div id="service" class="wrapper-inner">
                 <h1>НАШИ УСЛУГИ</h1>
                 <div class="service-bar">
-                    <figure>
-                        <div class="service-logo" data-balloon="Международная и межрегиональная логистика" data-balloon-length="medium" data-balloon-pos="down">
-                                <img class="hvr-grow" src="images/image-1.png" alt="some text"></div>
-                        <figcaption><a href="#">Международная и<br>межрегиональная<br>логистика</a></figcaption></figure>
+                        <div class="service-item service-1">
+                            <div class="service-image image-1" data-balloon="Международная и межрегиональная логистика" data-balloon-length="medium" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Международная и межрегиональная логистика</a></div>
+                        </div>
 
-                    <figure>
-                        <div class="service-logo" data-balloon="Таможенный транзит" data-balloon-length="small" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/image-2.png" alt="some text"></div>
-                        <figcaption><a href="#">Таможенный<br>транзит</a></figcaption></figure>
+                        <div class="service-item service-2">
+                            <div class="service-image image-2" data-balloon="Таможенный транзит" data-balloon-length="small" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Таможенный транзит</a></div>
+                        </div>
 
-                    <figure>
-                        <div class="service-logo" data-balloon="Внешнеторговый аутсортинг ВЭД" data-balloon-length="medium" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/image-3.png" alt="some text"></div>
-                    <figcaption><a href="#">Внешнеторговый<br>аутсортинг ВЭД</a></figcaption></figure>
 
-                    <figure>
-                        <div class="service-logo" data-balloon="Доставка грузов от двери до двери" data-balloon-length="medium" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/image-4.png" alt="some text"></div>
-                    <figcaption><a href="#">Доставка грузов от<br>двери до двери</a></figcaption></figure>
+                        <div class="service-item service-3">
+                            <div class="service-image image-3" data-balloon="Внешнеторговый аутсортинг ВЭД" data-balloon-length="medium" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Внешнеторговый аутсортинг ВЭД</a></div>
+                        </div>
 
-                    <figure>
-                        <div class="service-logo" data-balloon="Производство картонной упаковки" data-balloon-length="medium" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/image-5.png" alt="some text"></div>
-                    <figcaption><a href="#">Производство<br>картонной упаковки</a></figcaption></figure>
 
-                    <figure>
-                        <div class="service-logo" data-balloon="Страхование грузов" data-balloon-length="small" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/image-6.png" alt="some text"></div>
-                    <figcaption><a href="#">Страхование<br>грузов</a></figcaption></figure>
+                        <div class="service-item service-4">
+                            <div class="service-image image-4" data-balloon="Доставка грузов от двери до двери" data-balloon-length="medium" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Доставка грузов от двери до двери</a></div>
+                        </div>
+
+
+                        <div class="service-item service-5">
+                            <div class="service-image image-5" data-balloon="Производство картонной упаковки" data-balloon-length="medium" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Производство картонной упаковки</a></div>
+                        </div>
+
+
+                        <div class="service-item service-6">
+                            <div class="service-image image-6" data-balloon="Страхование грузов" data-balloon-length="small" data-balloon-pos="down"></div>
+                            <div class="service-title"><a href="#">Страхование грузов</a></div>
+                        </div>
                 </div>
             </div>
+
             <div class="figures-bar">
                 <div id="about" class="wrapper-inner">
-                    <div class="about-company"><h1>О компании в цифрах</h1></div>
+                    <h1>О компании в цифрах</h1>
                     <div class="counter-bar">
                         <div class="block block-1">
                             <div class="count spincrement">15</div>
-                            <div class="data">лет опыта в<br>международной<br>логистике и ВЭД</div></div>
+                            <div class="data">лет опыта в международной логистике и ВЭД</div></div>
                         <div class="block block-2">
                             <div class="count spincrement">194</div>
-                            <div class="data">страны - география<br>экспортных и импортных<br>направлений работы</div></div>
+                            <div class="data">страны - география экспортных и импортных направлений работы</div></div>
                         <div class="block block-3">
                             <div class="count spincrement">900</div>
-                            <div class="data">доставленных<br>экспортных и<br>импортных грузов</div></div>
+                            <div class="data">доставленных экспортных и импортных грузов</div></div>
                         <div class="block block-4">
                             <div class="count spincrement">450</div>
-                            <div class="data">заключенных<br>внешнеторговых<br>контрактов</div></div>
+                            <div class="data">заключенных внешнеторговых контрактов</div></div>
                         <div class="block block-5">
                             <div class="count spincrement">3</div>
-                            <div class="data">вида транспорта<br>доступно для<br>перевозки груов</div></div>
+                            <div class="data">вида транспорта доступно для перевозки грузов</div></div>
                     </div>
                 </div>
             </div>
+
             <div class="transport-bar">
                 <div class="wrapper-inner">
                     <h1>ТРАНСПОРТ ДЛЯ ПЕРЕВОЗКИ ВАШИХ ГРУЗОВ</h1>
                     <div class="company-transport">
-                        <div class="transport avia" data-balloon="Авиаперевозки" data-balloon-length="small" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/avia.png" alt="some text"></div>
-                        <div class="transport sea" data-balloon="Водный транспорт" data-balloon-length="small" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/sea.png" alt="some text"></div>
-                        <div class="transport truck" data-balloon="Автоперевозки" data-balloon-length="small" data-balloon-pos="down">
-                            <img class="hvr-grow" src="images/truck.png" alt="some text"></div>
-                    </div>
-                    <div class="transport-references">
-                        <a href="#"><p>Авиаперевозки</p></a>
-                        <a href="#"><p>Водный транспорт</p></a>
-                        <a href="#"><p>Автоперевозки</p></a>
+                        <div class="transport avia">
+                            <div class="transport-image image-1" data-balloon="Авиаперевозки" data-balloon-length="small" data-balloon-pos="down"></div>
+                            <div class="transport-title"><a href="#">Авиаперевозки</a></div>
+                        </div>
+
+                        <div class="transport sea">
+                            <div class="transport-image image-2" data-balloon="Водный транспорт" data-balloon-length="small" data-balloon-pos="down"></div>
+                            <div class="transport-title"><a href="#">Водный транспорт</a></div>
+                        </div>
+
+                        <div class="transport truck">
+                            <div class="transport-image image-3" data-balloon="Автоперевозки" data-balloon-length="small" data-balloon-pos="down"></div>
+                            <div class="transport-title"><a href="#">Автоперевозки</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="advantages-bar">
                 <div class="wrapper-inner">
                     <h1> Наши преимущества </h1>
@@ -151,6 +165,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="information-bar">
                 <div class="wrapper-inner">
                     <h2>Транспортная компания «ФТС» - услуги в сфере международной<br>логистики и внешнеторговой кооперации (ВЭД)</h2>
@@ -160,20 +175,20 @@
                     <p>- международные авиаперевозки грузов в РФ (Россию) из любого международного аэропорта Европы, США, Канады, Китая, Японии, Южной Кореи, Индии, любой другой страны, в том числе в GOJ (МАНН) - Международный аэропорт «Стригино» (Нижний Новгород), Домодедово (DME), Шереметьево (SVO), Внуково (VKO), в любой другой аэропорт РФ (России) на условиях Ex-works</p>
                 </div>
             </div>
-            <div class="order-bar">
+
+            <div class="get-service">
                 <div class="wrapper-inner">
                     <button class="get-modal">ЗАКАЗАТЬ УСЛУГИ</button>
                 </div>
             </div>
-        </main>
+
         <footer>
             <div class="wrapper-inner">
                 <div class="copyright"><p>2016 ©  Транспортная компания "ФТС" - услуги в сфере международной логистики и анешнеторговой кооперации (ВЭД).</p></div>
                 <address><p>Россия, 6031555, Нижний Новгород, ул.Ульянова, 46, офис 2225. Телефон: <a href="tel:+78312020385">+7 (831) 202-03-85</a>. E-mail:
                     <a href="mailto:fts.rad@co.ru">fts.rad@co.ru</a></p></address>
-                <div id="up"><img src="images/arrow-up.png" alt="some text"></div>
+                <div id="up" class="arrow-icon"></div>
             </div>
-
         </footer>
     </div>
 
@@ -182,36 +197,26 @@
             <div class="close-modal">X</div>
 
             <div class="form-test">
-                <label>
-                    <input type="text" placeholder="Введите ваше имя">
-                </label>
-                <label>
-                    <input type="email" placeholder="Введите ваш e-mail">
-                </label>
-
-                <div class="custom-select">
-                    <div class="current-value">Выберете страну</div>
+                <div class="client-data">
+                    <label>
+                        <input type="text" placeholder="Введите ваше имя">
+                    </label>
+                    <label>
+                        <input type="email" placeholder="Введите ваш e-mail">
+                    </label>
+                </div>
+                <div class="select">
+                    <div class="country">Выберите страну</div>
                     <ul>
-                        <li>Россия</li>
+                        <li>США</li>
                         <li>Украина</li>
-                        <li>USA</li>
+                        <li>Китай</li>
                     </ul>
                     <input type="text">
                 </div>
-
-                <div class="custom-select">
-                    <div class="current-value">Выберете город</div>
-                    <ul>
-                        <li>Харьков</li>
-                        <li>Киев</li>
-                        <li>Днепр</li>
-                    </ul>
-                    <input type="text">
+                <div class="send-button">
+                    <button class="send-info">Отправить</button>
                 </div>
-
-                <button class="send hvr-grow" type="submit">
-                    Отправить
-                </button>
             </div>
 
         </div>
